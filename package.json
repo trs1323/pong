@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Recreated Pong game",
   "main": "index.html",
+  "homepage": "https://trs1323.github.io/pong",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gh-pages -d dist"
@@ -16,7 +17,6 @@
   "bugs": {
     "url": "https://github.com/trs1323/pong/issues"
   },
-  "homepage": "https://github.com/trs1323/pong#readme",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }
