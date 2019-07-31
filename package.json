@@ -1,0 +1,23 @@
+{
+  "name": "pong",
+  "version": "1.0.0",
+  "description": "Recreated Pong game",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trs1323/pong.git"
+  },
+  "author": "Tanner Shilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trs1323/pong/issues"
+  },
+  "homepage": "https://github.com/trs1323/pong#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
