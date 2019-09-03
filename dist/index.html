@@ -1,25 +1,33 @@
-<html>
-  <head>
-    <title>Dev Pong</title>
-    <style>
-      body{
-        justify-content: center;
-        display:flex;
-        align-items:center;
-        background: #202020;
-        margin:0;
-      }
-      canvas{
-        border: solid 1px #fff;
-        border-left: none;
-        border-right: none;
-        image-rendering:pixelated;
-        height: 100%;
-      }
-    </style>
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="./style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
+  <title>PONG</title>
+</head>
+
+<body>
+  <div class="title">
+    <h1>PONG</h1>
+  </div>
+
+  <div class="container">
+
     <canvas id="pong" width="600" height="400" />
     <script src='pong.js'></script>
-  </body>
+  </div>
+  <div class="how-to">
+    <ul>
+      <li>How To Play</li>
+      <li>Use mouse to move your paddle</li>
+      <li>Try to score on computer opponent</li>
+      <li>Proceed to lose :)</li>
+    </ul>
+  </div>
+</body>
+
 </html>
